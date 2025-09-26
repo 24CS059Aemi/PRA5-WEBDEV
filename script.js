@@ -8,12 +8,12 @@ const events = [
 ];
 
 const students = [
-    { id: 1, name: "Amit Kumar", dept: "CSE", year: "3rd", email: "amit@example.com" },
-    { id: 2, name: "Priya Sharma", dept: "ECE", year: "2nd", email: "priya@example.com" },
-    { id: 3, name: "Ravi Patel", dept: "IT", year: "4th", email: "ravi@example.com" },
-    { id: 4, name: "Sneha Roy", dept: "ME", year: "1st", email: "sneha@example.com" },
-    { id: 5, name: "Vikram Singh", dept: "CSE", year: "3rd", email: "vikram@example.com" },
-    { id: 6, name: "Anjali Nair", dept: "EEE", year: "2nd", email: "anjali@example.com" }
+    { id: 1, name: "ABC", dept: "CSE", year: "3rd", email: "abc@example.com" },
+    { id: 2, name: "XYZ", dept: "ECE", year: "2nd", email: "xyz@example.com" },
+    { id: 3, name: "MNO", dept: "IT", year: "4th", email: "mno@example.com" },
+    { id: 4, name: "QAR", dept: "ME", year: "1st", email: "qar@example.com" },
+    { id: 5, name: "JKL", dept: "CSE", year: "3rd", email: "jkl@example.com" },
+    { id: 6, name: "GHJ", dept: "EEE", year: "2nd", email: "ghj@example.com" }
 ];
 
 // Pagination Function
@@ -74,4 +74,5 @@ function displayStudents(studentsList) {
 
 // Initialize
 renderPagination(events, "eventPagination", displayEvents);
+
 renderPagination(students, "studentPagination", displayStudents);
